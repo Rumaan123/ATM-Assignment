@@ -13,7 +13,6 @@ class ATM:
     if not self.check_pin(input_pin):
       print("Incorrect PIN.")
       return
-    if amount <= 0:
       print("Deposit amount must be greater than 0.")
       return
     self.balance += amount
